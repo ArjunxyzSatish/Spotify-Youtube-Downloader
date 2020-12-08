@@ -1,0 +1,12 @@
+__pycache__
+
+*.egg.info
+*.egg
+
+dist/
+build/
+sdist/
+wheels/
+tests/
+assets/
+assets/images
