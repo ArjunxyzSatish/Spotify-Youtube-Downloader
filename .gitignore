@@ -8,5 +8,3 @@ build/
 sdist/
 wheels/
 tests/
-assets/
-assets/images
