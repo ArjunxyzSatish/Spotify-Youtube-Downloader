@@ -14,7 +14,9 @@ This python script lets you:
 
 - You'll first need to have Python and pip installed. Once you have that, open your terminal and type ` pip install SaveThatSong `
 
-- Then to run the script, open a terminal window and type ` savethatsong `
+- You'll also need `ffmpeg` for this to work. This is what the script uses to convert the files into an mp3 format. Make sure you have that installed before running the script.
+
+- Then to run the script, open a terminal window and type ` sts `
 
 ## How to use it
 
