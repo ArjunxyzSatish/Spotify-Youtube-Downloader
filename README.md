@@ -12,6 +12,16 @@ This python script lets you:
 
 ## Installation
 
+### MacOS
+- Clone this repository by running the command `git clone https://github.com/ArjunxyzSatish/SaveThatSong` in a terminal window.
+
+- Navigate to the 'SaveThatSong' directory by running `cd SaveThatSong`.
+
+- Run the MacOS install script with `bash macOS_install.sh`.
+
+- This script installs homebrew first and installs all the required programs using homebrew (python3, ffmpeg, SaveThatSong). So it does everything for you! :D. If you would like to install this program directly from pip, you can check out the 'General' installation instructions below.
+
+### General
 - You'll first need to have Python and pip installed. Once you have that, open your terminal and type ` pip install SaveThatSong `
 
 - You'll also need `ffmpeg` for this to work. This is what the script uses to convert the files into an mp3 format. Make sure you have that installed before running the script.

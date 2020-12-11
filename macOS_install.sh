@@ -12,6 +12,9 @@ echo Installing Python3
 brew install python3
 echo Done!
 
+echo Installing ffmpeg
+brew install ffmpeg
+
 echo Installing SaveThatSong
 python3 -m pip install SaveThatSong --no-cache-dir --ignore-installed
 echo Done!
