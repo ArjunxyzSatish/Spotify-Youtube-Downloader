@@ -64,3 +64,7 @@ Make a text file and fill it with the names of the songs you want to download, o
 ### Download a song from YouTube
 
 Select option 4 from the main menu and enter the name of the song you want to download when prompted. The script then looks for this song on YouTube and downloads it for you.
+
+# Donations
+Consider Donating if you're feeling generous :) 
+[![PayPal Donation Link](blue.svg "PayPal Donation Link")](https://www.paypal.me/feedmeplsthx)
