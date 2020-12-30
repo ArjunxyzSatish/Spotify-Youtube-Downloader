@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
         name='SaveThatSong',
-        version='3.7.3',
+        version='4.0.0',
          classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

@@ -74,8 +74,12 @@ def download_song(song_url):
 
 
 def downloadFromLinks(urlList):
-   for url in urls:
-        download_song(url)
+    for url in urls:
+        print("Downloading song " + str(urls.index(url) + 1) + "/" + str(len(urls)) + "...")
+        try:
+            download_song(url)
+        except:
+            print("Failed to download song " + url)
 
 
 print('''
@@ -105,7 +109,11 @@ if choice == '1':
         playlistLink = input("Enter the playlist link: ")
         downloadFromPlaylist(playlistLink, client_ID, client_Secret)
         for song in songs:
-            UrlFinder(song)
+            try:
+                UrlFinder(song)
+            except:
+                print("Couldn't find: " + song + " on YouTube")
+
         downloadFromLinks(urls)
 
     else:
