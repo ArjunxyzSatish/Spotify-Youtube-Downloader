@@ -94,8 +94,9 @@ Menu:
 1. Download songs from a Spotify playlist.
 2. Download songs from a YouTube playlist.
 3. Download songs from a list of songs.
-4. Download a single song.
-5. Help
+4. Download a single song (search).
+5. Download a single song (link).
+6. Help
       ''')
 
 choice = input("Enter your choice: ")
@@ -156,6 +157,10 @@ elif choice == '4':
     downloadFromLinks(urls)
 
 elif choice == '5':
+    url = input("Enter the link of the song: ")
+    download_song(url)
+
+elif choice == '6':
 
     spotify = 'http://theothersyde.herokuapp.com'
     github = 'https://github.com/ArjunxyzSatish/SaveThatSong'
